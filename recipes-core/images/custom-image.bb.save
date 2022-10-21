@@ -1,0 +1,14 @@
+SUMMARY = "Test custom linux"
+
+IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
+
+IMAGE_LINGUAS = " "
+
+LICENSE = "MIT"
+
+inherit core-image
+inherit extrauser
+
+#set rootfs size
+IMAGE_OVERHEAD_FACTOR ?= "1.0"
+IMAGE_ROOTFS_SIZE ?= "2

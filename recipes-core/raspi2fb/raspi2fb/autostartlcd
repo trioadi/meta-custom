@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ln -s /etc/init.d/raspi2fb /etc/rc0.d/
