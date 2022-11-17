@@ -1,41 +1,15 @@
 This README file contains information on the contents of the meta-custom layer.
 
-Please see the corresponding sections below for details.
+This is the Linux custom image for raspberry pi3 board and yocto project kirkstone
+in this image include basic driver such as bluetooth, wifi, spi, i2c
+
+support out of the box LCD Display 3.5” RPi Display(MPI3501) without any configuration
 
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
+Add this layer to bblayers.conf 
+set machine in local.conf if you using another raspberry pi model
+run bitbake meta-custom
 
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
-
-Patches
-=======
-
-Please submit any patches against the meta-custom layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
-
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
-
-Table of Contents
-=================
-
-  I. Adding the meta-custom layer to your build
- II. Misc
-
-
-I. Adding the meta-custom layer to your build
-=================================================
-
-Run 'bitbake-layers add-layer meta-custom'
-
-II. Misc
-========
-
---- replace with specific information about the meta-custom layer ---
+this image recently not supported for touchscreen features
