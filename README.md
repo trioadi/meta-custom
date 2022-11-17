@@ -1,4 +1,4 @@
-This README file contains information on the contents of the meta-custom layer.
+Linux Custom Image for Raspberry pi board Yocto Project
 ==============================================================================
 
 This is the Linux custom image for raspberry pi3 board and yocto project kirkstone
