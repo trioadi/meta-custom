@@ -11,7 +11,9 @@ Dependencies
 ============
 
 Add this layer to bblayers.conf 
+
 set machine in local.conf if you using another raspberry pi model
+
 run bitbake meta-custom
 
 this image recently not supported for touchscreen features
