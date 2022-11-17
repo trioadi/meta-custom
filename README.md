@@ -1,4 +1,5 @@
-#This README file contains information on the contents of the meta-custom layer.
+This README file contains information on the contents of the meta-custom layer.
+==============================================================================
 
 This is the Linux custom image for raspberry pi3 board and yocto project kirkstone
 in this image include basic driver such as bluetooth, wifi, spi, i2c
