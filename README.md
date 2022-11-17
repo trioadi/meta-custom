@@ -1,4 +1,4 @@
-Linux Custom Image for Raspberry pi board Yocto Project
+Yocto Project: Linux Custom Image for Raspberry pi board
 ==============================================================================
 
 This is the Linux custom image for raspberry pi3 board and yocto project kirkstone
